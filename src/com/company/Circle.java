@@ -5,17 +5,17 @@ public class Circle extends Shape{
     public Circle(int side)
     {
         super(type:"circle");
-        this.side=side;
+        this.side=radius;
     }
     @Override
     public double getArea()
     {
-        return 3.14*side*side;
+        return 3.14*radius*radius;
 
     }
   @Override
     public double getPerimeter()
     {
-        return 3.14*side*2;
+        return 3.14*radius*2;
     }
 }
